@@ -23,7 +23,7 @@ When done the cmdlet will tell you where the file is stored and how much time it
 If you want you can then upload the file to an Azure Storage (blob) account.
 
 We assume:
-* That you already did run the `Install-Module "Azure.Storage"` from a elevated powershell.
+* That you already did run the `Install-Module "Azure.Storage"` from an elevated powershell.
 
 1. Start PowerShell (Start Menu - type powershell and click enter when you see the icon marked)
 2. Run `Import-Module d365fo.tools`
