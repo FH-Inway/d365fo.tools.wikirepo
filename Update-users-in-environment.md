@@ -7,7 +7,7 @@ Now you need to grant access (back) to your users in the restored environment an
 Look no further!
 
 We assume:
-* That you already did run the Install-Modele -Name d365fo.tools on the machine / server you will be using for this.
+* That you already did run the `Install-Modele -Name d365fo.tools` on the machine / server you will be using for this.
 * That the database has been restored and you are sitting on machine / server that either runs the SQL Server (Tier1, Azure / onebox) or a machine / server inside the same network environment as the Azure DB (Tier2 - MS hosted). 
 
 For MS hosted Tier2 environments you need have the sql username and password ready, this is found on LCS under the implementation project and the details page for the desired environment. For the other environments you don't - if you run PowerShell with "Run As Administrator"
