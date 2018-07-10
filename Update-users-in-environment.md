@@ -14,10 +14,10 @@ For MS hosted Tier2 environments you need have the sql username and password rea
 
 1. Start PowerShell (Start Menu - type powershell and click enter when you see the icon marked)
 2. Run `Import-Module d365fo.tools`
-3. Run `Set-Admin "insertyouremailaddress"`
+3. Run `Set-D365Admin "insertyouremailaddress"`
    - Remember that the e-mail address needs to be a valid Azure Active Directory e-mail
-   - E.g. `Set-Admin "allen@contoso.com"`
+   - E.g. `Set-D365Admin "allen@contoso.com"`
 4. Wait for the command to finish
-5. Run `Update-User -Email "%youremaildomain%"`
+5. Run `Update-D365User -Email "%youremaildomain%"`
    - Fill in the domain of the users that you want to update and give back access to the specific environment
    - E.g. `Update-User -Email "%contoso.com%"`
