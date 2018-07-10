@@ -11,6 +11,21 @@ We assume:
 1. Start PowerShell (Start Menu - type powershell and click enter when you see the icon marked)
 2. Run `Import-Module d365fo.tools`
 
+
+**Tier-1 examples**
+Run `Get-D365Environment -All`
+
+*This will display the current status of all the D365 services on the machine*
+
+Run `Stop-D365Environment -All`
+
+*This stop all the D365 services on the machine. It will list the current status for all services*
+
+Run `Start-D365Environment -All`
+
+*This start all the D365 services on the machine. It will list the current status for all services*
+
+**Tier-2 examples**
 Run `Get-D365Environment -ComputerName "TEST-SB-AOS1","TEST-SB-AOS2","TEST-SB-BI1" -All`
 
 *This will display the current status of all the D365 services across all the supplied machines.*
