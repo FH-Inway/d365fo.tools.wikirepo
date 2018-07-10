@@ -13,7 +13,7 @@ You need have the sql username and password ready, this is found on LCS under th
 
 1. Start PowerShell (Start Menu - type powershell and click enter when you see the icon marked)
 2. Run `Import-Module d365fo.tools`
-3. Run `New-BacPacv2 -ExecutionMode FromAzure -SqlUser User123 -SqlPwd "Password123" -NewDatabaseName BacpacPrep -BacpacDirectory C:\Temp\Bacpac\ -BacpacName "BacpacPrep-20180701"`
+3. Run `New-D365BacPac -ExecutionMode FromAzure -SqlUser User123 -SqlPwd "Password123" -NewDatabaseName BacpacPrep -BacpacDirectory C:\Temp\Bacpac\ -BacpacName "BacpacPrep-20180701"`
    - Remember to fill in the correct SqlUser and SqlPwd obtained from LCS
    - Ensure that you have enough space to handle bacpac file on disk
 4. Wait for the command to finish
@@ -27,10 +27,10 @@ We assume:
 
 1. Start PowerShell (Start Menu - type powershell and click enter when you see the icon marked)
 2. Run `Import-Module d365fo.tools`
-3. Run `"C:\Temp\Bacpac\BacpacPrep-20180701.bacpac" | Invoke-AzureStorageUpload -AccountId "miscfiles" -AccessToken "xx508xx63817x752xx74004x30705xx92x58349x5x78f5xx34xxxxx51" -Blobname "backupfiles"`
+3. Run `"C:\Temp\Bacpac\BacpacPrep-20180701.bacpac" | Invoke-D365AzureStorageUpload -AccountId "miscfiles" -AccessToken "xx508xx63817x752xx74004x30705xx92x58349x5x78f5xx34xxxxx51" -Blobname "backupfiles"`
    - Remember to update the script with correct values for -AccountId, -AccessToken og -Blobname
 
 **Advanced example - oneliner that creates the bacpac file, uploads it to azure storage and deletes it**
 ```
-New-BacPacv2 -ExecutionMode FromAzure -SqlUser User123 -SqlPwd "Password123" -NewDatabaseName BacpacPrep -BacpacDirectory C:\Temp\Bacpac\ -BacpacName "BacpacPrep-20180701" | Invoke-AzureStorageUpload -AccountId "miscfiles" -AccessToken "xx508xx63817x752xx74004x30705xx92x58349x5x78f5xx34xxxxx51" -Blobname "backupfiles" -DeleteOnUpload
+New-D365BacPac -ExecutionMode FromAzure -SqlUser User123 -SqlPwd "Password123" -NewDatabaseName BacpacPrep -BacpacDirectory C:\Temp\Bacpac\ -BacpacName "BacpacPrep-20180701" | Invoke-D365AzureStorageUpload -AccountId "miscfiles" -AccessToken "xx508xx63817x752xx74004x30705xx92x58349x5x78f5xx34xxxxx51" -Blobname "backupfiles" -DeleteOnUpload
 ```
