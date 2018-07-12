@@ -18,3 +18,4 @@ This shouldn't be required on ANY machine deployed from LCS.
 5. Restart your Visual Studio, remember to start it elevated (Run As Administrator)
 6. Start the Table Browser again and continue with your work.
 
+A special thanks goes to Shaikh Sohail Hussain and his blogpost that caught our attention. You can find the blog post in question here: http://d365technext.blogspot.com/2018/07/offline-authentication-admin-email.html and you can reach him at @SSohailHussain (twitter)
