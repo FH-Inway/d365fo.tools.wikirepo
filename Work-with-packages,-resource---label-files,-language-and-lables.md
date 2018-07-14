@@ -41,3 +41,9 @@ Get-D365InstalledPackage | Out-GridView -PassThru | Get-D365PackageLabelFile -La
 ```
 
 *You don't quite know what you are looking for and the powershell cmdlets does feel comfortable. Use the above command to display a GridView with filtering options available. First you will have to select what package you want to work against - you can select multiple. Next GridView will make you select the specific resource / label files you want to work against, across the selected packages - you can select multiple. The last GridView will show you the results from the earlier selections and make it possible for you to filter what ever you want.*
+
+```
+Get-D365InstalledPackage | Get-D365PackageLabelFile -Language "da" | Get-D365Label -Value "*antal*" -IncludePath | Out-GridView
+```
+
+*Shows all labels that contains the "antal" text value, across all packages, across all resource / label files, with the language "da" and shows it in GridView where you can filter the entire result further for you convenience* 
