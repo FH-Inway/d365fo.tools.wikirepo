@@ -14,4 +14,4 @@ Invoke-D365SysRunnerClass -ClassName SysDBInformation -Company USMF
 ```
 Invoke-D365SysFlushAodCache
 ```
-*This will start a web browser and have it cal the SysRunnerClass menu item with the SysFlushAod name as the runnable class to execute*
+*This will start a web browser and have it call the SysRunnerClass menu item with the SysFlushAod name as the runnable class to execute*
