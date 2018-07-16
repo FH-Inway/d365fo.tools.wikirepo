@@ -59,4 +59,14 @@ Get-D365TableField -TableName CustTable -Name vatnum
 ```
 Get-D365Table -Name CustTable,CustTrans | Get-D365TableField -Name Accountnum -IncludeTableDetails | Format-Table
 ```
-*You want to search for a Column(name) / Field(name) across multiple known tables*
+*You want to search for a Column(name) / Field(name) across multiple **known** tables*
+
+```
+Get-D365Table -Name CustTable,CustTrans | Get-D365TableField -IncludeTableDetails | Format-Table
+```
+*You want to see all fields across multiple **known** tables*
+
+```
+Get-D365TableField -Name AccountNum -SearchAcrossTables | Get-D365TableField -IncludeTableDetails | Format-Table
+```
+*You want to search for a Column(name) / Field(name) across **all** tables*
