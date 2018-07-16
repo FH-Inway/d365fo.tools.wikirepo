@@ -79,3 +79,8 @@ Get-D365TableField -Name "Account*" -SearchAcrossTables  | Format-List
 *You want to search for a Column(name) / Field(name) across **all** tables*
 
 **Small teaser for the combination of Get-D365Table and Invoke-D365TableBrowser**
+
+```
+Get-D365Table -Name CustTable,CustTrans | Invoke-D365TableBrowser -Company USMF
+```
+*You want to start the table browser for **both** CustTable & CustTrans, against the USMF company*
