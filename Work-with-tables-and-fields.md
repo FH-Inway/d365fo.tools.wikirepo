@@ -14,3 +14,15 @@ We assume:
 
 1. Start PowerShell (Start Menu - type powershell and click enter when you see the icon marked)
 2. Run `Import-Module d365fo.tools`
+
+**You want to search for custtable, either by TableId or TableName**
+
+```
+Get-D365Table -Id 10347
+```
+*You only have the id: 10347 on your hands and your memory doesn't seem to remember that this is actually CustTable*
+
+```
+Get-D365Table -Name Custtable
+```
+*You only have the CustTable on your hands and your memory doesn't seem to remember that this is actually TableId: 10347*
