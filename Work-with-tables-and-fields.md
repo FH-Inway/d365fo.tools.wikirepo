@@ -20,9 +20,23 @@ We assume:
 ```
 Get-D365Table -Id 10347
 ```
-*You only have the id: 10347 on your hands and your memory doesn't seem to remember that this is actually CustTable*
+*You only have the TableId: 10347 on your hands and your memory doesn't seem to remember that this is actually CustTable*
 
 ```
 Get-D365Table -Name Custtable
 ```
-*You only have the CustTable on your hands and your memory doesn't seem to remember that this is actually TableId: 10347*
+*You only have the "CustTable" on your hands and your memory doesn't seem to remember that this is actually TableId: 10347*
+
+**You want to see all fields for custtable, either by TableId or TableName**
+```
+Get-D365TableField -TableId 10347
+#OR
+Get-D365TableField -TableId 10347 -IncludeTableDetails | Format-Table
+```
+*You only have the TableId: 10347 on your hands and you can't remember all fields that is part of that table*
+```
+Get-D365TableField -TableName Custtable 
+#OR
+Get-D365TableField -TableName Custtable -IncludeTableDetails | Format-Table
+```
+*You only have the "CustTable" on your hands and you can't remember all fields that is part of that table*
