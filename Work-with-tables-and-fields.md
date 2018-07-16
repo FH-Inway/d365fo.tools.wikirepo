@@ -56,3 +56,7 @@ Get-D365TableField -TableName CustTable -Name vatnum
 *You only have the "CustTable" on your hands and you can't the FieldId or FieldName for VATNUM*
 
 ## **You are ready to take your PowerShell skills to the next level**
+```
+Get-D365Table -Name CustTable,CustTrans | Get-D365TableField -Name Accountnum -IncludeTableDetails | Format-Table
+```
+*You want to search for a Column(name) / Field(name) across multiple known tables*
