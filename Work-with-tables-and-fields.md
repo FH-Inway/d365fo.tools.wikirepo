@@ -1,10 +1,10 @@
 So you are working with troubleshooting or maybe extending Dynamics 365 Finance & Operations.
 
-You might have a TableId and want to know what table(name) is behind that id.
-You might have a table(name) and want to know what TableId is behind that table name.
-You might have a TableId and FieldId and want to know what hides behind different ids.
-You might have a table(name) and want to know what fields are part of the table.
-You might have part of a field(name) and want to search all tables for a matching field.
+* You might have a TableId and want to know what table(name) is behind that id.
+* You might have a table(name) and want to know what TableId is behind that table name.
+* You might have a TableId and FieldId and want to know what hides behind different ids.
+* You might have a table(name) and want to know what fields are part of the table.
+* You might have part of a field(name) and want to search all tables for a matching field.
 
 Look no further!
 
