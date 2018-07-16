@@ -40,3 +40,20 @@ Get-D365TableField -TableName Custtable
 Get-D365TableField -TableName Custtable -IncludeTableDetails | Format-Table
 ```
 *You only have the "CustTable" on your hands and you can't remember all fields that is part of that table*
+
+**You want to see a specific field for custtable, either by TableId or TableName, and either by FieldId or FieldName**
+```
+Get-D365TableField -TableId 10347 -FieldId 175
+#OR
+Get-D365TableField -TableId 10347 -Name vatnum
+```
+*You only have the TableId: 10347 on your hands and you can't the FieldId or FieldName for VATNUM*
+```
+Get-D365TableField -TableName Custtable -FieldId 175
+#OR
+Get-D365TableField -TableName Custtable -Name vatnum
+```
+*You only have the "CustTable" on your hands and you can't the FieldId or FieldName for VATNUM*
+
+
+
