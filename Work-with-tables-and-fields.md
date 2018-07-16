@@ -15,7 +15,7 @@ We assume:
 1. Start PowerShell (Start Menu - type powershell and click enter when you see the icon marked)
 2. Run `Import-Module d365fo.tools`
 
-**You want to search for custtable, either by TableId or TableName**
+**You want to search for CustTable, either by TableId or TableName**
 
 ```
 Get-D365Table -Id 10347
@@ -23,11 +23,11 @@ Get-D365Table -Id 10347
 *You only have the TableId: 10347 on your hands and your memory doesn't seem to remember that this is actually CustTable*
 
 ```
-Get-D365Table -Name Custtable
+Get-D365Table -Name CustTable
 ```
 *You only have the "CustTable" on your hands and your memory doesn't seem to remember that this is actually TableId: 10347*
 
-**You want to see all fields for custtable, either by TableId or TableName**
+**You want to see all fields for CustTable, either by TableId or TableName**
 ```
 Get-D365TableField -TableId 10347
 #OR
@@ -35,13 +35,13 @@ Get-D365TableField -TableId 10347 -IncludeTableDetails | Format-Table
 ```
 *You only have the TableId: 10347 on your hands and you can't remember all fields that is part of that table*
 ```
-Get-D365TableField -TableName Custtable 
+Get-D365TableField -TableName CustTable
 #OR
-Get-D365TableField -TableName Custtable -IncludeTableDetails | Format-Table
+Get-D365TableField -TableName CustTable -IncludeTableDetails | Format-Table
 ```
 *You only have the "CustTable" on your hands and you can't remember all fields that is part of that table*
 
-**You want to see a specific field for custtable, either by TableId or TableName, and either by FieldId or FieldName**
+**You want to see a specific field for CustTable, either by TableId or TableName, and either by FieldId or FieldName**
 ```
 Get-D365TableField -TableId 10347 -FieldId 175
 #OR
@@ -49,9 +49,9 @@ Get-D365TableField -TableId 10347 -Name vatnum
 ```
 *You only have the TableId: 10347 on your hands and you can't the FieldId or FieldName for VATNUM*
 ```
-Get-D365TableField -TableName Custtable -FieldId 175
+Get-D365TableField -TableName CustTable -FieldId 175
 #OR
-Get-D365TableField -TableName Custtable -Name vatnum
+Get-D365TableField -TableName CustTable -Name vatnum
 ```
 *You only have the "CustTable" on your hands and you can't the FieldId or FieldName for VATNUM*
 
