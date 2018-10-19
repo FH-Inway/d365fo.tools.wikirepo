@@ -78,3 +78,9 @@ Download a copy of the file [AzureLogicApp-Template.json](https://raw.githubuser
 17. Validate that things look like they should.
 
 [[images/AzureLogicApp.017.png]]
+
+18. Save the Logic App.
+19. Click **"Edit"** once more.
+20. Click **"When a Http Request is received"** and click on the copy to clipboard button next to the URL.
+
+[[images/AzureLogicApp.018.png]]
