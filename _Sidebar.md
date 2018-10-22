@@ -10,4 +10,4 @@
 * [[Testing & QA]]
 
 **Automated Testing**
-* [[Appveyor and tests | Home#appveyor-setup]]
+* [[Appveyor and tests]]
