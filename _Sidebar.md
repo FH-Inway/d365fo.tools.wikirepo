@@ -11,12 +11,3 @@
 
 **Automated Testing**
 * [[Appveyor and tests | Home#appveyor-setup]]
-
-**Restore Functionality**
-* [[Restore DbaDatabase function overview]]
-
-**Transparency**
-* [[Creating a new release]]
-* [[Get FilteredRestoreFiles]]
-* [[Restore DbaDatabase]]
-* [[Restore DbaDatabase function overview]]
