@@ -20,4 +20,4 @@ For MS hosted Tier2 environments you need have the sql username and password rea
 4. Wait for the command to finish
 5. Run `Update-D365User -Email "%youremaildomain%"`
    - Fill in the domain of the users that you want to update and give back access to the specific environment
-   - E.g. `Update-User -Email "%contoso.com%"`
+   - E.g. `Update-D365User -Email "%contoso.com%"`
