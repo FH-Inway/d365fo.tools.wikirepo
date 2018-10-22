@@ -9,7 +9,7 @@ If you have never worked with GitHub/Git it can be challenging to know where to 
 [Learning Git Branching](http://learngitbranching.js.org/) - Online lab of sorts for trying out and learning Git command line.
 
 ## Creating your first pull request
-[We created a tutorial](https://github.com/sqlcollaborative/dbatools/wiki/Your-First-Pull-Request) to help you get started. We tried to keep it as brief and easy as possible.
+If you feel for fixing a bug, but don't know GitHub enough, the dbatools.io project has a good starting guide. We are on the same team, so instead of us writing a guide that is close to theirs - we simply point to theirs [step-by-step guide](https://dbatools.io/firstpull).
 
 ## Really cool tutorial site!
 [git-scm](https://git-scm.com/)
