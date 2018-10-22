@@ -1,0 +1,11 @@
+**Start Here**
+* [[Do And Do Not]]
+* [[Implementing the messaging system]]
+* [[Getting Started with GitHub]]
+* [[Your First Pull Request]]
+* [[Fix PR with too many files]]
+* [[Removing a file from your PR]]
+* [[Style Guide]]
+* [[Standardization]]
+* [[Standard Documentation]]
+* [[Removing a file from your PR]] 
