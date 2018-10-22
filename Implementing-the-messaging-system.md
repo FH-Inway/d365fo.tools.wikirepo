@@ -135,3 +135,5 @@ Also information that is directly development-related (such as immediate SQL sta
 The minimum required in a d365fo.tools function is:
 - Warnings as described in the warnings section
 - VeryVerbose and Verbose messages, as shown in the section on verbosity
+
+**Note:** This entire page is deeply inspired by the work done over in the [dbatool.io](https://github.com/sqlcollaborative/dbatools) module. Pay them a visit and learn from the very same people as we did.
