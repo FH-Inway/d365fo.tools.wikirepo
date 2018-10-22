@@ -56,16 +56,10 @@
 
 * The defacto naming convention for any command is ApprovedVerb-D365*
 
-* [If your command can make changes to multiple objects, require an -All parameter to prevent multiple accidental activity](https://trello.com/c/esS4bdlg/61-do-we-need-to-add-additional-safety-in-invoking-state-modification-commands-for-all-commands-that-are-not-get-or-test-i-e-they-m)
-
 * [Use one space after a bracket.](https://trello.com/c/Lb6rUOD4/37-how-should-spaces-must-come-after-brackets-where-object-whatever-eq-whatever)
 
 * [Use `-Force` instead of `-Confirm:$False`](https://trello.com/c/OYaUyhMO/27-we-did-discuss-this-tweeted-with-msft-about-it-got-mixed-reviews-one-tweet-in-particular-lined-up-with-the-way-that-we-use-force)
 
-* [dbatools uses internal functions as building blocks, if some subset of your functionality is valuable consider breaking it up and making it available to the entire project.](https://trello.com/c/Fhp7D8ts/41-can-we-push-the-use-of-internal-functions-as-modular-building-blocks-makes-code-reuse-much-easier-only-one-place-to-fix-if-ms-ch)
-
 * [Open braces on the same line, Closing braces always on their own line.](https://trello.com/c/20GTHsQM/63-when-creating-script-blocks-create-a-bracket-on-new-line-http-www-poll-maker-com-results924522x3e366fd2-38)
 
 * [There is no need to write empty keywords in advanced functions if they are not used (`begin`,`process`,`end`)](https://trello.com/c/NYtu5JUJ/40-do-we-want-to-use-an-empty-begin-and-empty-end-in-advanced-functions-when-we-have-no-code-to-place-in-the-script-block-please-le)
-
-* [When returning data from SQL Server's various date and time objects, the `DbaTime` `DbaDateTime` `DbaDate` `DbaTimeSpan` types can be used to match the relevant type in SQL Server](https://trello.com/c/GCDR8xiJ/51-managing-timespan-objects-what-about-with-timespans-that-have-like-24-too-many-decimal-places-can-we-write-a-function-to-truncat)
