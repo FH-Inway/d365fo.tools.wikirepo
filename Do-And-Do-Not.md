@@ -54,9 +54,7 @@
 
 * [When choosing names and methods for booleans, consider using a more descriptive name than "Enabled" or "IsEnabled", instead add additional descriptive information such as "IsAdEnabled" or "IsSqlEnabled"](https://trello.com/c/qfXBDHm8/39-isenabled-vs-status)
 
-* [The defacto naming convention for referring to a SQL Server instance is $SqlInstance](https://trello.com/c/kViKul5u/2-sqlinstance-is-now-the-only-proper-way-to-name-your-sql-server-change-templates-to-accommodate-this)
-
-* [The defacto naming convention for any command is ApprovedVerb-Dba*](https://trello.com/c/fDYHbAqV/3-all-commands-should-be-named-approvedverb-dba-even-copy-sql)
+* The defacto naming convention for any command is ApprovedVerb-D365*
 
 * [If your command can make changes to multiple objects, require an -All parameter to prevent multiple accidental activity](https://trello.com/c/esS4bdlg/61-do-we-need-to-add-additional-safety-in-invoking-state-modification-commands-for-all-commands-that-are-not-get-or-test-i-e-they-m)
 
