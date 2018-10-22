@@ -1,5 +1,3 @@
-**Note:** This entire page is deeply inspired by the work done over in the [dbatool.io](https://github.com/sqlcollaborative/dbatools) module. Pay them a visit and learn from the very same people as we did.
-
 # Writing Documentation:
 
 * [If a a function accepts pipeline input, there should at least be one example that shows it being used that way.](https://trello.com/c/Aax7fm9M/52-if-a-a-function-accepts-pipeline-input-there-should-at-least-be-one-example-that-shows-it-being-used-that-way)
@@ -65,3 +63,5 @@
 * [Open braces on the same line, Closing braces always on their own line.](https://trello.com/c/20GTHsQM/63-when-creating-script-blocks-create-a-bracket-on-new-line-http-www-poll-maker-com-results924522x3e366fd2-38)
 
 * [There is no need to write empty keywords in advanced functions if they are not used (`begin`,`process`,`end`)](https://trello.com/c/NYtu5JUJ/40-do-we-want-to-use-an-empty-begin-and-empty-end-in-advanced-functions-when-we-have-no-code-to-place-in-the-script-block-please-le)
+
+**Note:** This entire page is deeply inspired by the work done over in the [dbatool.io](https://github.com/sqlcollaborative/dbatools) module. Pay them a visit and learn from the very same people as we did.
