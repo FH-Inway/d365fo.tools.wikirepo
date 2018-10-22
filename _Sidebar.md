@@ -14,3 +14,4 @@
 
 **Guides**
 * [[Configure Azure Logic App]]
+* [[Run a runnable class]]
