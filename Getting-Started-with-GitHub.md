@@ -13,3 +13,5 @@ If you have never worked with GitHub/Git it can be challenging to know where to 
 
 ## Really cool tutorial site!
 [git-scm](https://git-scm.com/)
+
+**Note:** This entire page is deeply inspired by the work done over in the [dbatool.io](https://github.com/sqlcollaborative/dbatools) module. Pay them a visit and learn from the very same people as we did.
