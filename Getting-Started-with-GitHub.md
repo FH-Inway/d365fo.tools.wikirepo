@@ -9,7 +9,7 @@ If you have never worked with GitHub/Git it can be challenging to know where to 
 [Learning Git Branching](http://learngitbranching.js.org/) - Online lab of sorts for trying out and learning Git command line.
 
 ## Creating your first pull request
-If you feel for fixing a bug, but don't know GitHub enough, the dbatools.io project has a good starting guide. We are on the same team, so instead of us writing a guide that is close to theirs - we simply point to theirs [step-by-step guide](https://dbatools.io/firstpull).
+If you feel for fixing a bug, but don't know GitHub enough, the [dbatool.io](https://github.com/sqlcollaborative/dbatools) project has a good starting guide. We are on the same team, so instead of us writing a guide that is close to theirs - we simply point to theirs [step-by-step guide](https://dbatools.io/firstpull).
 
 ## Really cool tutorial site!
 [git-scm](https://git-scm.com/)
