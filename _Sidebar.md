@@ -11,3 +11,6 @@
 
 **Automated Testing**
 * [[Appveyor and tests]]
+
+**Guides**
+* [[Configure Azure Logic App]]
