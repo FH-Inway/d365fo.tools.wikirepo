@@ -17,3 +17,4 @@
 * [[Run a runnable class]]
 * [[Update users in environment]]
 * [[Work with Azure Storage Account]]
+* [[Work with packages, resource label files, language and lables]]
