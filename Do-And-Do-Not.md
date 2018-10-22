@@ -1,3 +1,5 @@
+**Note:** This entire page is deeply inspired by the work done over in the [dbatool.io](https://github.com/sqlcollaborative/dbatools) module. Pay them a visit and learn from the very same people as we did.
+
 # Writing Documentation:
 
 * [If a a function accepts pipeline input, there should at least be one example that shows it being used that way.](https://trello.com/c/Aax7fm9M/52-if-a-a-function-accepts-pipeline-input-there-should-at-least-be-one-example-that-shows-it-being-used-that-way)
