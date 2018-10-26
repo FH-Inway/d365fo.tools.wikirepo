@@ -5,6 +5,7 @@
 * [Your First Pull Request](https://github.com/sqlcollaborative/dbatools/wiki/Your-First-Pull-Request)
 * [[Removing a file from your PR]]
 * [[Style Guide]]
+* [[Branching]]
 
 **Quality Control**
 * [[Testing & QA]]
