@@ -6,7 +6,7 @@
 * [[Removing a file from your PR]]
 * [[Style Guide]]
 * [[Branching]]
-* [[Azure Build Configuration]]
+* [[Azure DevOps Build Configuration]]
 
 **Quality Control**
 * [[Testing & QA]]
