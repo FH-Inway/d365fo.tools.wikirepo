@@ -7,6 +7,8 @@ We encourage the use of features/bug fixes branches when working against the d36
 1. Make sure that you have selected your local repository
 2. Make sure that you have selected the development branch
 
+[[images/Branch.001.png]]
+
 3. Click on the **development** branch icon in the top
 4. Click on the **New branch** button in the drop down menu
 
