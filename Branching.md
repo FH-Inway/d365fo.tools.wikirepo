@@ -2,6 +2,8 @@
 
 We encourage the use of features/bug fixes branches when working against the d365fo.tools repo. Read more about it [here](https://docs.microsoft.com/en-us/azure/devops/repos/git/git-branching-guidance?view=vsts)
 
+One of the benefits of having a feature branch is that if you want to submit multiple PR's against the central repository and you have to rework different parts of any PR, things are separated. When you push your changes to your branch, things get picked up automatically and the check pipeline will execute currently once again.
+
 ## **Create a new branch from the desktop client**
 
 1. Make sure that you have selected your local repository
