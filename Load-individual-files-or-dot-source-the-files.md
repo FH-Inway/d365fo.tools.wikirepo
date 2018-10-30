@@ -8,6 +8,6 @@ Import-Module d365fo.tools -Force -Passthru
 You need better file names and line numbers while playing around?
 
 ```
-Set-PSFConfig d365fo.tools.Import.DoDotSource$true 
+Set-PSFConfig d365fo.tools.Import.DoDotSource $true 
 Import-Module d365fo.tools -Force -Passthru
 ```
