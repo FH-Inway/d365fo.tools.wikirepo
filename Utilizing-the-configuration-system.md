@@ -53,3 +53,9 @@ SqlPwd  : afafKHkhke
 
 ### **Set-D365ActiveEnvironmentConfig**
 `Set-D365ActiveEnvironmentConfig` is used to register some of the in-memory variables that the module relies on, by promoting an environment configuration to the status active. It is simply done by using the name that you gave it while working with `Add-D365EnvironmentConfig` and all details will be copied over to a new set that is only used with the active environment logic. Please read more about the details of the cmdlet in the docs or `Get-Help Set-D365ActiveEnvironmentConfig`
+
+**Example on how to set a given environment af the active environment configuration**
+
+```
+
+```
