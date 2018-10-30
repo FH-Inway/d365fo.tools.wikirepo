@@ -15,6 +15,7 @@
 * [[Appveyor and tests]]
 
 **Guides**
+* [[Load individual files or dot source the files]]
 * [[Configure Azure Logic App]]
 * [[Run a runnable class]]
 * [[Update users in environment]]
