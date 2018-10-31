@@ -23,5 +23,5 @@
 * [Work with packages, resource label files, language and lables](https://github.com/d365collaborative/d365fo.tools/wiki/Work-with-packages,-resource---label-files,-language-and-lables)
 * [[Working with the different D365 services]]
 
-**Troubleshoot**
+**Troubleshooting**
 * [[Troubleshoot]]
