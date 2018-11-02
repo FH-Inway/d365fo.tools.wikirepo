@@ -1,3 +1,6 @@
+## **Prerequisites**
+You will need a Personal Access Token configured in your github account. Read [guide](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/) to obtain that.
+
 ﻿## **Configure Github Access**
 1. Navigate to your Azure DevOps project
 2. Click on the **"Project settings"** icon in the bottom left corner of the page
