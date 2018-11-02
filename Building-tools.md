@@ -2,6 +2,9 @@ When you contribute to the d365fo.tools project you will quickly learn that we h
 
 ## **Prerequisites**
 * PSModuleDevelopment (PowerShell module to aid with development)
+   * `Install-Module PSModuleDevelopment -Force -Confirm:$false`
+* platyPS (PowerShell module to aid with documentation for modules)
+   * `Install-Module platyPS -Force -Confirm:$false`
 
 ## **Format Comment Based help**
 We try to keep the formatting of the Comment Based Help the same across every contributor, so here is the base script on [gist](https://gist.github.com/Splaxi/ff7485a24f6ed9937f3e8da76b5d4840).
