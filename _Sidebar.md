@@ -7,6 +7,7 @@
 * [[Style Guide]]
 * [[Branching]]
 * [[Azure DevOps Build Configuration]]
+* [[Building-tools]]
 
 **Quality Control**
 * [[Testing & QA]]
