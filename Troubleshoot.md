@@ -11,3 +11,8 @@ Get-PSFMessage -Level InternalComment | Format-List | out-file C:\temp\sqlcomman
 ```
 explorer.exe (Split-Path (Get-Module d365fo.tools).Path -Parent)
 ```
+
+## **Unsplat a hashtable to a string with parameters**
+```
+($HashArray.Keys | ForEach-Object {"-$($_) `"$($HashArray.Item($_))`""}) -Join " "
+```
