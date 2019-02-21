@@ -17,6 +17,7 @@
 
 **Guides**
 * [[Configure Azure Logic App]]
+* [[Fix AzureStorageConfig]]
 * [[Run a runnable class]]
 * [[Update users in environment]]
 * [[Work with Azure Storage Account]]
