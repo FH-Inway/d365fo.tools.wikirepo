@@ -5,7 +5,7 @@ You might have to login to several different servers / machines to ensure that t
 Look no further!
 
 We assume:
-* That you already did run the `Install-Modele -Name d365fo.tools` on the machine / server you will be using for this. 
+* That you already did run the `Install-Module -Name d365fo.tools` on the machine / server you will be using for this. 
 * That you will be running this from 1 of the AOS machines / Servers in the Tier 2 environment.
 
 1. Start PowerShell (Start Menu - type powershell and click enter when you see the icon marked)
