@@ -9,6 +9,9 @@
 * [[Azure DevOps Build Configuration]]
 * [[Building-tools]]
 
+**Automation**
+* [[Exception handling]]
+
 **Quality Control**
 * [[Testing & QA]]
 
