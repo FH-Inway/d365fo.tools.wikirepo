@@ -1,6 +1,6 @@
 ## **Learn**
 ### **Tutorials**
-* [[Tutorial-First-Time-Install-Non-Administrator]]
+* [[Tutorial First Time Install Non Administrator]]
 
 **Start Here**
 * [[Do And Do Not]]
