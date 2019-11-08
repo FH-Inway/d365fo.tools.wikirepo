@@ -2,6 +2,8 @@
 ### **Tutorials**
 * [Install as a non-Administrator](https://github.com/d365collaborative/d365fo.tools/wiki/Tutorial-First-Time-Install-Non-Administrator)
 * [Install as a Administrator](https://github.com/d365collaborative/d365fo.tools/wiki/Tutorial-First-Time-Install-Administrator)
+* [Import d365fo.tools module](https://github.com/d365collaborative/d365fo.tools/wiki/Tutorial-First-Time-Import-Module)
+
 
 **Start Here**
 * [[Do And Do Not]]
