@@ -13,7 +13,7 @@ You need sign into the machine where you want to install the tools. If you have 
 ## **Start PowerShell**
 Locate the PowerShell icon, if you don't have it on your desktop or in the task pane, we can locate it in the Windows Start Menu. Search for it or type PowerShell.
 
-[[images/First-Time-Start-PowerShell-Non-Administrator.gif]]
+[[images/tutorials/First-Time-Start-PowerShell-Non-Administrator.gif]]
 
 ## **Install the d365fo.tools module**
 In the PowerShell console/window type the following command:
@@ -21,7 +21,7 @@ In the PowerShell console/window type the following command:
 ```
 Install-Module -Name d365fo.tools -Scope CurrentUser
 ```
-[[images/First-Time-Install-Non-Administrator-Install-Module.gif]]
+[[images/tutorials/First-Time-Install-Non-Administrator-Install-Module.gif]]
 
 PowerShell will now connect to the internet and try to download the latest version of the d365fo.tools and its dependencies. If your machine or PowerShell installation is all fresh, you might be prompted for questions / confirmations about core PowerShell configurations.
 
@@ -30,15 +30,15 @@ You need to either accept or approve all the prompts, for things to work like ex
 ### **NuGet**
 If you want to learn about NuGet as concept, you can start here: https://en.wikipedia.org/wiki/NuGet
 
-[[images/First-Time-Install-Non-Administrator-Confirm-Nuget.gif]]
+[[images/tutorials/First-Time-Install-Non-Administrator-Confirm-Nuget.gif]]
 
 ### **Untrusted Repository**
 The tools are available from PowerShellGallery. If you want to learn about PowerShellGallery, you can start here: https://docs.microsoft.com/en-us/powershell/scripting/gallery/overview?view=powershell-5.1
 
-[[images/First-Time-Install-Non-Administrator-Confirm-Repository.gif]]
+[[images/tutorials/First-Time-Install-Non-Administrator-Confirm-Repository.gif]]
 
 ## **Completing installation**
-[[images/First-Time-Install-Non-Administrator-Wait-For-Installation.gif]]
+[[images/tutorials/First-Time-Install-Non-Administrator-Wait-For-Installation.gif]]
 
 ## **Import module**
 While you just installed the d365fo.tools on the machine by following this tutorial, you will need to import or simply put, load the module into the PowerShell console, before you can use it. Type the following command:
@@ -47,7 +47,7 @@ While you just installed the d365fo.tools on the machine by following this tutor
 Import-Module -Name d365fo.tools
 ```
 
-[[images/First-Time-Install-Non-Administrator-Import-Module.gif]]
+[[images/tutorials/First-Time-Install-Non-Administrator-Import-Module.gif]]
 
 ## **Closing comments**
 In this tutorial we showed you how to install the tools when you don't have administrator privileges on machine. We highlighted some of the prompts that you might face on a freshly installed machine.
