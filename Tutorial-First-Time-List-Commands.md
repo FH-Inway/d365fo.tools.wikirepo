@@ -1,23 +1,27 @@
 ﻿# **List available commands in the d365fo.tools**
 
-This tutorial will show you how to list and search for commands that are available from the d365fo.tools module. Please visit the **First-Time-Install-Administrator** or the **First-Time-Install-Non-Administrator** tutorials to learn how to install the tools.
-
-Please visit the **First-Time-Install-Administrator** or the **First-Time-Install-Non-Administrator** tutorials to learn how to install the tools.
-
-Please visit the **First-Time-Import-Module** tutorial to see the different ways you can load the #d365fo.module into a PowerShell session.
+This tutorial will show you how to list and search for commands that are available from the d365fo.tools module.
 
 ## **Prerequisites**
 * Machine with D365FO installed
 * PowerShell 5.1
 * d365fo.tools module installed
 
+Please visit the [Install as a Administrator](https://github.com/d365collaborative/d365fo.tools/wiki/Tutorial-First-Time-Install-Administrator) or the [Install as a Administrator](https://github.com/d365collaborative/d365fo.tools/wiki/Tutorial-First-Time-Install-Non-Administrator) tutorials to learn how to install the tools.
+
 ## **Start PowerShell**
 Locate the PowerShell icon, if you don't have it on your desktop or in the task pane, we can locate it in the Windows Start Menu. Search for it or type PowerShell.
 
-**Image of PowerShell**
+[[images/tutorials/First-Time-Start-PowerShell-Non-Administrator.gif]]
 
-See below gif on how to do it
-**ScreenCast-Gif**
+## **Import module**
+You need to import / load the d365fo.tools module into the current PowerShell console. Type the following command:
+
+```
+Import-Module -Name d365fo.tools
+```
+
+[[images/tutorials/Import-Module-Administrator.gif]]
 
 ## **List all available commands**
 If you want to see the entire list of available commands from the d365fo.tools, you can ask PowerShell to list them for you. Type the following command:
@@ -26,8 +30,7 @@ If you want to see the entire list of available commands from the d365fo.tools, 
 Get-Command -Module d365fo.tools
 ```
 
-See below gif on how to do it
-**ScreenCast-Gif**
+[[images/tutorials/First-Time-List-Commands.gif]]
 
 
 ## **Search for commands**
@@ -37,5 +40,4 @@ If you want to search for command that contains a specific word or phrase, you c
 Get-Command *bacpac* -Module d365fo.tools
 ```
 
-See below gif on how to do it
-**ScreenCast-Gif**
+[[images/tutorials/First-Time-Search-Commands.gif]]
