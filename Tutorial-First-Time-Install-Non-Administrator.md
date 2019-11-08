@@ -50,4 +50,4 @@ Import-Module -Name d365fo.tools
 [[images/tutorials/First-Time-Install-Non-Administrator-Import-Module.gif]]
 
 ## **Closing comments**
-In this tutorial we showed you how to install the tools when you don't have administrator privileges on machine. We highlighted some of the prompts that you might face on a freshly installed machine.
+In this tutorial we showed you how to install the d365fo.tools when you don't have administrator privileges on machine. We highlighted some of the prompts that you might face on a freshly installed machine.
