@@ -16,8 +16,6 @@ Locate the PowerShell icon, if you don't have it on your desktop or in the task 
 
 You need to right click on the PowerShell icon and select the "Run As Administrator" option for the menu.
 
-[[../images/First-Time-Start-PowerShell-Administrator.gif]]
-
 [[images/First-Time-Start-PowerShell-Administrator.gif]]
 
 See below gif on how to do it
