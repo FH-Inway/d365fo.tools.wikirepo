@@ -9,7 +9,7 @@ Please visit the **First-Time-Import-Module** tutorial to see the different ways
 ## **Prerequisites**
 * Machine with D365FO installed
 * PowerShell 5.1
-* #d365fo.tools module installed
+* d365fo.tools module installed
 
 Please visit the **First-Time-Import-Module** tutorial to see the different ways you can load the #d365fo.module into a PowerShell session.
 

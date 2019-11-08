@@ -9,7 +9,7 @@ Please visit the **First-Time-Import-Module** tutorial to see the different ways
 ## **Prerequisites**
 * Machine with D365FO installed
 * PowerShell 5.1
-* #d365fo.tools module installed
+* d365fo.tools module installed
 
 ## **Stop all D365FO services**
 We need to stop all D365FO related services, to ensure that our database isn't being updated while we are exporting it. Type the following command:

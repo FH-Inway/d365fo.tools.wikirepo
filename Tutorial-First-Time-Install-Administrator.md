@@ -1,12 +1,12 @@
-﻿# **Learn how to install #d365fo.tools**
+﻿# **Learn how to install d365fo.tools**
 
-This tutorial will show you how to install the #d365fo.tools on a machine where you have administrator access / privileges. If you are **NOT** able to logon to the machine as an administrator, you should be using the **First-Time-Install-Non-Administrator** tutorial instead.
+This tutorial will show you how to install the d365fo.tools on a machine where you have administrator access / privileges. If you are **NOT** able to logon to the machine as an administrator, you should be using the **First-Time-Install-Non-Administrator** tutorial instead.
 
 ## **Prerequisites**
-Machine with D365FO installed
-PowerShell 5.1
-Administrator privileges
-Internet access / Internet connection
+* Machine with D365FO installed
+* PowerShell 5.1
+* Administrator privileges
+* Internet access / Internet connection
 
 ## **Logon to the computer**
 You need sign into the machine where you want to install the tools. Remember to sign in as an account with administrator privileges.
@@ -18,7 +18,7 @@ You need to right click on the PowerShell icon and select the "Run As Administra
 
 [[images/First-Time-Start-PowerShell-Administrator.gif]]
 
-## **Install the #d365fo.tools module**
+## **Install the d365fo.tools module**
 In the PowerShell console/window type the following command:
 
 ```
@@ -27,7 +27,7 @@ Install-Module -Name d365fo.tools
 
 [[images/First-Time-Install-Administrator-Install-Module.gif]]
 
-PowerShell will now connect to the internet and try to download the latest version of the #d365fo.tools and its dependencies. If your machine or PowerShell installation is all fresh, you might be prompted for questions / confirmations about core PowerShell configurations.
+PowerShell will now connect to the internet and try to download the latest version of the d365fo.tools and its dependencies. If your machine or PowerShell installation is all fresh, you might be prompted for questions / confirmations about core PowerShell configurations.
 
 You need to either accept or approve all the prompts, for things to work like expected. See below examples on the which prompts you can expect and what response you should fill in.
 
@@ -42,7 +42,7 @@ The tools are available from PowerShellGallery. If you want to learn about Power
 [[images/First-Time-Install-Administrator-Confirm-Repository.gif]]
 
 ## **Import module**
-While you just installed the #d365fo.tools on the machine by following this tutorial, you will need to import or simply put, load the module into the PowerShell console, before you can use it. Type the following command:
+While you just installed the d365fo.tools on the machine by following this tutorial, you will need to import or simply put, load the module into the PowerShell console, before you can use it. Type the following command:
 
 ```
 Import-Module -Name d365fo.tools

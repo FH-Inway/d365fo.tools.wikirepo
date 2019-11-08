@@ -1,4 +1,4 @@
-﻿# **List available commands in the #d365fo.tools**
+﻿# **List available commands in the d365fo.tools**
 
 Please visit the **First-Time-Install-Administrator** or the **First-Time-Install-Non-Administrator** tutorials to learn how to install the tools.
 
@@ -7,7 +7,7 @@ Please visit the **First-Time-Import-Module** tutorial to see the different ways
 ## **Prerequisites**
 * Machine with D365FO installed
 * PowerShell 5.1
-* #d365fo.tools module installed
+* d365fo.tools module installed
 
 ## **List all available commands**
 For us to have something to work with, we need to get the list of available functions in the module. Type the following command:
