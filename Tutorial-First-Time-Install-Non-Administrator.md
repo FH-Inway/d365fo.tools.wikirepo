@@ -30,10 +30,14 @@ You need to either accept or approve all the prompts, for things to work like ex
 ### **NuGet**
 If you want to learn about NuGet as concept, you can start here: https://en.wikipedia.org/wiki/NuGet
 
+Answer the prompt with: **Y**
+
 [[images/tutorials/First-Time-Install-Non-Administrator-Confirm-Nuget.gif]]
 
 ### **Untrusted Repository**
 The tools are available from PowerShellGallery. If you want to learn about PowerShellGallery, you can start here: https://docs.microsoft.com/en-us/powershell/scripting/gallery/overview?view=powershell-5.1
+
+Answer the prompt with: **A**
 
 [[images/tutorials/First-Time-Install-Non-Administrator-Confirm-Repository.gif]]
 
