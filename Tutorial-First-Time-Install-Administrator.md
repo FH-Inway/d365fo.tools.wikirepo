@@ -1,6 +1,8 @@
 ﻿# **Learn how to install d365fo.tools**
 
-This tutorial will show you how to install the d365fo.tools on a machine where you have administrator access / privileges. If you are **NOT** able to logon to the machine as an administrator, you should be using the **First-Time-Install-Non-Administrator** tutorial instead.
+This tutorial will show you how to install the d365fo.tools on a machine where you have administrator access / privileges.
+
+If you are **NOT** able to logon to the machine as an administrator, you should be using the [Install as a Non Administrator](https://github.com/d365collaborative/d365fo.tools/wiki/Tutorial-First-Time-Install-Non-Administrator) tutorial instead.
 
 ## **Prerequisites**
 * Machine with D365FO installed
