@@ -6,7 +6,9 @@
 * [List available commands from d365fo.tools module](https://github.com/d365collaborative/d365fo.tools/wiki/Tutorial-First-Time-List-Commands)
 * [Get help content for a command](https://github.com/d365collaborative/d365fo.tools/wiki/Tutorial-First-Time-Show-Help)
 
-Tutorial-First-Time-List-Commands
+### **How To**
+* [Start, Stop and List services](https://github.com/d365collaborative/d365fo.tools/wiki/How-To-Start-Stop-List-D365FO-Services)
+
 **Start Here**
 * [[Do And Do Not]]
 * [[Implementing the messaging system]]
