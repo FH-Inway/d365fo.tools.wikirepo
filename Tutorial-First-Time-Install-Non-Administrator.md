@@ -1,6 +1,8 @@
 ﻿# **Learn how to install d365fo.tools**
 
-This tutorial will show you how to install the d365fo.tools on a machine where you **don't** have administrator access / privileges. If you are able to logon to the machine as an administrator, you should be using the [Install as a Administrator](https://github.com/d365collaborative/d365fo.tools/wiki/Tutorial-First-Time-Install-Administrator) tutorial instead.
+This tutorial will show you how to install the d365fo.tools on a machine where you **don't** have administrator access / privileges. 
+
+If you are able to logon to the machine as an administrator, you should be using the [Install as an Administrator](https://github.com/d365collaborative/d365fo.tools/wiki/Tutorial-First-Time-Install-Administrator) tutorial instead.
 
 ## **Prerequisites**
 * Machine with D365FO installed
@@ -8,7 +10,9 @@ This tutorial will show you how to install the d365fo.tools on a machine where y
 * Internet access / Internet connection
 
 ## **Logon to the computer**
-You need sign into the machine where you want to install the tools. If you have an user account with administrator privileges, please follow the [Install as a Administrator](https://github.com/d365collaborative/d365fo.tools/wiki/Tutorial-First-Time-Install-Administrator) tutorial instead.
+You need sign into the machine where you want to install the tools.
+
+If you have an user account with administrator privileges, please follow the [Install as an Administrator](https://github.com/d365collaborative/d365fo.tools/wiki/Tutorial-First-Time-Install-Administrator) tutorial instead.
 
 ## **Start PowerShell**
 Locate the PowerShell icon, if you don't have it on your desktop or in the task pane, we can locate it in the Windows Start Menu. Search for it or type PowerShell.
