@@ -19,12 +19,22 @@ If you want to see the entire list of D365FO services and/or see their current r
 Get-D365Environment -All
 ```
 
+### **Output while services are running**
+
+[[images/howtos/Get-Services-While-Running.gif]]
+
+### **Output while services are stopped**
+
+[[images/howtos/Get-Services-While-Stopped.gif]]
+
 ## **Stop all D365FO services**
 If you want to stop all services on the machine, maybe you want to install an update or import a model, type the following command:
 
 ```
 Stop-D365Environment -All
 ```
+
+[[images/howtos/Stop-Services.gif]]
 
 ## **Start all D365FO services**
 If you want to start all services on the machine, type the following command:
@@ -33,6 +43,8 @@ If you want to start all services on the machine, type the following command:
 Start-D365Environment -All
 ```
 
+[[images/howtos/Start-Services.gif]]
+
 ## **Restart all D365FO services**
 If you want to restart all services on the machine, maybe because you are having some issues with caching, type the following command:
 
@@ -40,8 +52,7 @@ If you want to restart all services on the machine, maybe because you are having
 Restart-D365Environment -All
 ```
 
-**Image of Run As Administrator**
+[[images/howtos/Restart-Services.gif]]
 
-See below gif on how to do it
-**ScreenCast-Gif**
-
+## **Closing comments**
+In this how to we showed you how to use the d365fo.tools module to manage the different D365FO specific services.
