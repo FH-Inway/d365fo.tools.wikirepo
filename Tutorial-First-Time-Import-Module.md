@@ -32,6 +32,5 @@ Import-Module -Name d365fo.tools
 
 [[images/tutorials/Import-Module-Administrator.gif]]
 
-
 ## **Closing comments**
 In this tutorial we showed you how to import the d365fo.tools into your PowerShell console.

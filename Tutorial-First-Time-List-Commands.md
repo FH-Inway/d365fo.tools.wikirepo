@@ -41,3 +41,6 @@ Get-Command *bacpac* -Module d365fo.tools
 ```
 
 [[images/tutorials/First-Time-Search-Commands.gif]]
+
+## **Closing comments**
+In this tutorial we showed you how to list all of the functions that is part of the d365fo.tools. We also showed how you can search for a specific keyword and find all commands containing that keyword.
