@@ -19,5 +19,7 @@ We want to update all NON-SYSTEM user accounts in the D365FO database, and that 
 Get-D365User -ExcludeSystemUsers | Update-D365User
 ```
 
+[[images/howtos/Update-Users.gif]]
+
 ## **Closing comments**
 In this how to we showed you how to update all NON-SYSTEM user accounts in the D365FO database. After this operation all users are now updated with their provider matching the Azure AD tenant of the D365FO environment.
