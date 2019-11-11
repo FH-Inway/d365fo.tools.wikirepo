@@ -8,6 +8,13 @@
 
 ### **How To**
 * [Start, Stop and List services](https://github.com/d365collaborative/d365fo.tools/wiki/How-To-Start-Stop-List-D365FO-Services)
+* [Import users into the D365FO environment](https://github.com/d365collaborative/d365fo.tools/wiki/How-To-Import-User-Into-Db)
+* [Import external users into the D365FO environment](https://github.com/d365collaborative/d365fo.tools/wiki/How-To-Import-External-User-Into-Db)
+* [Enable users in the D365FO environment](https://github.com/d365collaborative/d365fo.tools/wiki/How-To-Enable-Users-In-Db)
+* [Update users in the D365FO environment](https://github.com/d365collaborative/d365fo.tools/wiki/How-To-Update-Users-In-Db)
+* [Provision D365FO environment to new Azure AD tenant](https://github.com/d365collaborative/d365fo.tools/wiki/How-To-Provision-Environment-Tier1)
+* [Import a bacpac file into a Tier1 environment](https://github.com/d365collaborative/d365fo.tools/wiki/How-To-Import-Bacpac-Into-Tier1)
+* [Export a bacpac file from a Tier1 environment](https://github.com/d365collaborative/d365fo.tools/wiki/How-To-Export-Bacpac-From-Tier1)
 
 **Start Here**
 * [[Do And Do Not]]

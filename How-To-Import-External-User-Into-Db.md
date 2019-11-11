@@ -1,4 +1,4 @@
-﻿# **Import users into the D365FO environment**
+﻿# **Import external users into the D365FO environment**
 
 This how-to will guide you on how to import external users into your D365 environment.
 

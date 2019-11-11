@@ -1,4 +1,4 @@
-﻿# **Export a bacpac file from a Tier1 environment**
+﻿# **Update users in the D365FO environment**
 
 This how-to will guide you on how to update all NON-SYSTEM users in the database. This is required if you provision your D365FO environment to be connected to a new Azure AD tenant.
 

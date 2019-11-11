@@ -1,4 +1,4 @@
-﻿# **Export a bacpac file from a Tier1 environment**
+﻿# **Provision D365FO environment to new Azure AD tenant**
 
 This how-to will guide you on how to provision Tier1 environment to be connected to new Azure AD tenant.
 
