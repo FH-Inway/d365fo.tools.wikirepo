@@ -1,10 +1,10 @@
 ## **Learn**
 ### **Tutorials**
-* [Install as a non-Administrator](https://github.com/d365collaborative/d365fo.tools/wiki/Tutorial-First-Time-Install-Non-Administrator)
-* [Install as a Administrator](https://github.com/d365collaborative/d365fo.tools/wiki/Tutorial-First-Time-Install-Administrator)
-* [Import d365fo.tools module](https://github.com/d365collaborative/d365fo.tools/wiki/Tutorial-First-Time-Import-Module)
-* [List available commands from d365fo.tools module](https://github.com/d365collaborative/d365fo.tools/wiki/Tutorial-First-Time-List-Commands)
-* [Get help content for a command](https://github.com/d365collaborative/d365fo.tools/wiki/Tutorial-First-Time-Show-Help)
+* [Install as a non-Administrator](https://github.com/d365collaborative/d365fo.tools/wiki/Tutorial-Install-Non-Administrator)
+* [Install as a Administrator](https://github.com/d365collaborative/d365fo.tools/wiki/Tutorial-Install-Administrator)
+* [Import d365fo.tools module](https://github.com/d365collaborative/d365fo.tools/wiki/Tutorial-Import-Module)
+* [List available commands from d365fo.tools module](https://github.com/d365collaborative/d365fo.tools/wiki/Tutorial-List-Commands)
+* [Get help content for a command](https://github.com/d365collaborative/d365fo.tools/wiki/Tutorial-Show-Help)
 
 ### **How To**
 * [Start, Stop and List services](https://github.com/d365collaborative/d365fo.tools/wiki/How-To-Start-Stop-List-D365FO-Services)
