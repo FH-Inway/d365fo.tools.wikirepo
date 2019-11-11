@@ -7,7 +7,7 @@ This how-to will guide you on how to provision Tier1 environment to be connected
 * PowerShell 5.1
 * d365fo.tools module installed
 * d365fo.tools module loaded into a PowerShell session
-* Valid Azure AD user account
+* Valid Azure AD user account that should be assigned as the D365FO administrator
 
 Please visit the [Install as an Administrator](https://github.com/d365collaborative/d365fo.tools/wiki/Tutorial-First-Time-Install-Administrator) or the [Install as a Non Administrator](https://github.com/d365collaborative/d365fo.tools/wiki/Tutorial-First-Time-Install-Non-Administrator) tutorials to learn how to install the tools.
 
@@ -22,7 +22,7 @@ Please note that the value for the AdminSignInName parameter should be a user ac
 Set-D365Admin -AdminSignInName test@e-s.dk
 ```
 
-The command can run for sometime, because it needs to stop and start the different services on the machine.
+[[images/howtos/Provision-Admin.gif]]
 
 ### **Troubleshooting**
 You might face an error while trying to provision the new administrator. This issue is connected to the Batch service running. We have seen several issues where we are unable to stop the service with the normal tools available, even standard Windows tools. We have seen 2 ways to fix this issue: First option is a simple restart of the entire machine and straight after the reboot try doing it again. Second option is to kill the Batch service using the Task Manager.

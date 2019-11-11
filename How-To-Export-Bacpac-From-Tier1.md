@@ -28,7 +28,9 @@ We will now export the bacpac file, and instruct the command to output the progr
 New-D365Bacpac -ExportModeTier1 -ShowOriginalProgress
 ```
 
+[[images/howtos/Export-Bacpac.gif]]
+
 The command will run for quite some time, but it will eventually exit and output the file location of the newly created bacpac file.
 
 ## **Closing comments**
-In this how to we showed you how you can create a valid bacpac file from a Tier1 environment. You can now distribute the bacpac file to your colleagues or even upload it to LCS.
+In this how to we showed you how you can create a valid bacpac file from a Tier1 environment. The bacpac file is prepped for either other Tier1 environments, but is also valid for Tier2+ environments, through the LCS portal.
