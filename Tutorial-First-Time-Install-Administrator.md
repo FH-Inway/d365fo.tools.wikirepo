@@ -1,4 +1,4 @@
-﻿# **Learn how to install d365fo.tools**
+﻿# **Install as a Administrator**
 
 This tutorial will show you how to install the d365fo.tools on a machine where you have administrator access / privileges.
 

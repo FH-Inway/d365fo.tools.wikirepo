@@ -1,4 +1,4 @@
-﻿# **List available commands in the d365fo.tools**
+﻿# **Get help content for a command**
 
 This tutorial will show you how to get the different kind of help content available for every command in the d365fo.tools module.
 

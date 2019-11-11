@@ -1,4 +1,4 @@
-﻿# **List available commands in the d365fo.tools**
+﻿# **List available commands from d365fo.tools module**
 
 This tutorial will show you how to list and search for commands that are available from the d365fo.tools module.
 

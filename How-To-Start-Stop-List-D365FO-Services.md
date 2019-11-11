@@ -1,4 +1,4 @@
-﻿# **Working with D365FO services**
+﻿# **Start, Stop and List services**
 
 This how to will guide you on how to manage the different D365FO services on a machine.
 
