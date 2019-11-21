@@ -14,7 +14,10 @@
 * [Update users in the D365FO environment](https://github.com/d365collaborative/d365fo.tools/wiki/How-To-Update-Users-In-Db)
 * [Provision D365FO environment to new Azure AD tenant](https://github.com/d365collaborative/d365fo.tools/wiki/How-To-Provision-Environment-Tier1)
 * [Import a bacpac file into a Tier1 environment](https://github.com/d365collaborative/d365fo.tools/wiki/How-To-Import-Bacpac-Into-Tier1)
-* [Export a bacpac file from a Tier1 environment](https://github.com/d365collaborative/d365fo.tools/wiki/How-To-Export-Bacpac-From-Tier1)
+* [List modules / models](https://github.com/d365collaborative/d365fo.tools/wiki/How-To-List-Models)
+* [Compile module](https://github.com/d365collaborative/d365fo.tools/wiki/How-To-Compile-Model)
+
+
 
 **Start Here**
 * [[Do And Do Not]]
