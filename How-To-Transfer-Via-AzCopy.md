@@ -22,15 +22,7 @@ We need to get a hold of a complete source url from LCS, and the only way to get
 
 Here is a raw video of the same, so you can pause it if needed.
 
-[[images/howtos/LCS-Download.mp4]]
-
-Complete Example
-Expanding on @MGA's Answer
-
-While its not possible to embed a video in Markdown you can "fake it" by including a valid linked-image in your Markdown file, using this format:
-
-[![LCS Download](LCS-Download-Video-Thumb.png)](https://streamable.com/ty8rc "LCS Download")
-
+[LCS Download in browser](https://streamable.com/ty8rc)
 
 The end result is that you have a full URL/URI for the file that you want to transfer. The URL/URI will contain a valid SAS token, but will be time limited.
 
