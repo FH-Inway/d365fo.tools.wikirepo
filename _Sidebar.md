@@ -16,6 +16,8 @@
 * [Import a bacpac file into a Tier1 environment](https://github.com/d365collaborative/d365fo.tools/wiki/How-To-Import-Bacpac-Into-Tier1)
 * [List modules / models](https://github.com/d365collaborative/d365fo.tools/wiki/How-To-List-Models)
 * [Compile module](https://github.com/d365collaborative/d365fo.tools/wiki/How-To-Compile-Model)
+* [Install AzCopy](https://github.com/d365collaborative/d365fo.tools/wiki/How-To-Install-AzCopy)
+* [Install SqlPackage](https://github.com/d365collaborative/d365fo.tools/wiki/How-To-Install-SqlPackage)
 
 
 
