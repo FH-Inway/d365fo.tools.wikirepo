@@ -33,9 +33,13 @@ The source URL/URI in our example is:
 You need to concatenate the full URL/URI for you own Azure Storage Account, the container name, the desired destination filename and the SAS token that you must have in place for the container.
 
 In out example these are the following details:
+
 **Storage Account URL/URI**: "https://motz.blob.core.windows.net/"
+
 **Container Name**: "azcopytest"
+
 **SAS Token**: "?sv=2018-03-28&si=full&sr=c&sig=PH5douKkqJJrbl8CoQjizopFCtgnL50aLUJzY0k1Xqc%3D"
+
 **Desired Filename**: "FinandOps10.0.5.part16.rar"
 
 The combined destination URL/URI ends up being:
