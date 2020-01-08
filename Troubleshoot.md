@@ -9,7 +9,7 @@ Get-PSFMessage -Level InternalComment | Format-List | out-file C:\temp\sqlcomman
 
 ## **Locate the folder where the module is installed**
 ```
-explorer.exe (Split-Path (Get-Module d365fo.tools).Path -Parent)
+explorer.exe (Split-Path $(Get-Module d365fo.tools -ListAvailable | Select-Object -First 1).Path -Parent)
 ```
 
 ## **Unsplat a hashtable to a string with parameters**
