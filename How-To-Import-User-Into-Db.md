@@ -11,7 +11,7 @@ This how-to will guide you on how to import users into your D365 environment.
 
 Please visit the [Install as an Administrator](https://github.com/d365collaborative/d365fo.tools/wiki/Tutorial-First-Time-Install-Administrator) or the [Install as a Non Administrator](https://github.com/d365collaborative/d365fo.tools/wiki/Tutorial-First-Time-Install-Non-Administrator) tutorials to learn how to install the tools.
 
-Please visit the [Import d365fo.tools module](https://github.com/d365collaborative/d365fo.tools/wiki/Tutorial-First-Time-Import-Module) tutorial to see the different ways you can load the d365fo.module into a PowerShell session.
+Please visit the [Import d365fo.tools module](https://github.com/d365collaborative/d365fo.tools/wiki/Tutorial-Import-Module) tutorial to see the different ways you can load the d365fo.module into a PowerShell session.
 
 ## **Import an user into the database**
 We are going to import a single user account into the D365FO database. The user has to be licensed with an valid Office365 mailbox. The sign-in name / e-mail has to be the primary sign-in name of the account. Type the following command:
