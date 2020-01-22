@@ -9,7 +9,7 @@ You need to import / load the d365fo.tools module into PowerShell every time you
 * PowerShell 5.1
 * d365fo.tools module installed
 
-Please visit the [Install as an Administrator](https://github.com/d365collaborative/d365fo.tools/wiki/Tutorial-Install-Administrator) or the [Install as a Non Administrator](https://github.com/d365collaborative/d365fo.tools/wiki/Tutorial-First-Time-Install-Non-Administrator) tutorials to learn how to install the tools.
+Please visit the [Install as an Administrator](https://github.com/d365collaborative/d365fo.tools/wiki/Tutorial-Install-Administrator) or the [Install as a Non Administrator](https://github.com/d365collaborative/d365fo.tools/wiki/Tutorial-Install-Non-Administrator) tutorials to learn how to install the tools.
 
 ## **Start PowerShell (Run As Administrator)**
 Locate the PowerShell icon, if you don't have it on your desktop or in the task pane, we can locate it in the Windows Start Menu. Search for it or type PowerShell.
