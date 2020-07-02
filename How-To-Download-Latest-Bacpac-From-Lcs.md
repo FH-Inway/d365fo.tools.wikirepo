@@ -3,6 +3,13 @@
 
 This how-to will guide you on how to utilize the LCS API and download the latest bacpac file via the AzCopy.exe, and showing you how to increase the download speed with a nice little trick.
 
+- **TOC**
+  * [**Prerequisites**](#--prerequisites--)
+  * [**Configure Azure Storage Account**](#--configure-azure-storage-account--)
+  * [**Configure LCS API access details**](#--configure-lcs-api-access-details--)
+  * [**Download the lastest bacpac file from LCS via AzCopy**](#--download-the-lastest-bacpac-file-from-lcs-via-azcopy--)
+  * [**Closing comments**](#--closing-comments--)
+  
 ## **Prerequisites**
 * Machine with D365FO installed
 * PowerShell 5.1
