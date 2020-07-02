@@ -19,7 +19,7 @@
 * [Install AzCopy](https://github.com/d365collaborative/d365fo.tools/wiki/How-To-Install-AzCopy)
 * [Install SqlPackage](https://github.com/d365collaborative/d365fo.tools/wiki/How-To-Install-SqlPackage)
 * [Speed up LCS download via AzCopy](https://github.com/d365collaborative/d365fo.tools/wiki/How-To-Transfer-Via-AzCopy)
-
+* [Download latest bacpac from LCS via AzCopy](https://github.com/d365collaborative/d365fo.tools/wiki/How-To-Download-Latest-Bacpac-From-Lcs)
 
 
 **Start Here**
