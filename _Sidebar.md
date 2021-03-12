@@ -18,6 +18,7 @@
 * [Compile module](https://github.com/d365collaborative/d365fo.tools/wiki/How-To-Compile-Model)
 * [Install AzCopy](https://github.com/d365collaborative/d365fo.tools/wiki/How-To-Install-AzCopy)
 * [Install SqlPackage](https://github.com/d365collaborative/d365fo.tools/wiki/How-To-Install-SqlPackage)
+* [Install Nuget](https://github.com/d365collaborative/d365fo.tools/wiki/How-To-Install-Nuget)
 * [Speed up LCS download via AzCopy](https://github.com/d365collaborative/d365fo.tools/wiki/How-To-Transfer-Via-AzCopy)
 * [Download latest bacpac from LCS via AzCopy](https://github.com/d365collaborative/d365fo.tools/wiki/How-To-Download-Latest-Bacpac-From-Lcs)
 
