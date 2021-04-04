@@ -16,13 +16,9 @@ Please visit the [Install as an Administrator](https://github.com/d365collaborat
 Please visit the [Import d365fo.tools module](https://github.com/d365collaborative/d365fo.tools/wiki/Tutorial-Import-Module) tutorial to see the different ways you can load the d365fo.module into a PowerShell session.
 
 ## **Start download from LCS via the browser**
-We need to get a hold of a complete source url from LCS, and the only way to get that by the time of writing this How-To, is to start a download by hand from a browser. Please see below guide:
+We need to get a hold of a complete source url from LCS, and thankfully it is super easy. Please see below guide:
 
-[[images/howtos/LCS-Download.gif]]
-
-Here is a raw video of the same, so you can pause it if needed.
-
-[LCS Download in browser](https://streamable.com/ty8rc)
+[[images/howtos/LCS-Download-v2.gif]]
 
 The end result is that you have a full URL/URI for the file that you want to transfer. The URL/URI will contain a valid SAS token, but will be time limited.
 
