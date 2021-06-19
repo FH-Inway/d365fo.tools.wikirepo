@@ -22,6 +22,14 @@ Import-D365Bacpac -BacpacFile "C:\Temp\d365fo.tools\AxDB.bacpac" -ImportModeTier
 
 [[images/howtos/Import-Bacpac.gif]]
 
+### Troubleshooting
+
+If you get an error message during this step that complains about a missing `sqlpackage.exe`, run the following command before running the `Import-D365Bacpac` command again.
+
+```
+Invoke-D365InstallSqlPackage
+```
+
 ## **Stop all D365FO services**
 We need to stop all D365FO related services, to ensure that our D365FO database isn't being lock when we are going to update it. Type the following command:
 
@@ -39,8 +47,6 @@ Switch-D365ActiveDatabase -NewDatabaseName "GOLDEN"
 ```
 
 [[images/howtos/Switch-Database.gif]]
-
-The command will run for quite some time, but it will eventually exit and output the file location of the newly created bacpac file.
 
 ## **Synchronize the D365FO databases**
 With the newly GOLDEN database switched in a the D365FO database, we need to ensure that the codebase and the database is synchronized correctly and fully working. Type the following command:
@@ -61,4 +67,4 @@ Start-D365Environment -All
 [[images/howtos/Start-Services.gif]]
 
 ## **Closing comments**
-In this how to we showed you how you can update a Tier1 environment with a bacpac file, and how to make sure that the database is synchronized with the codebase. Depending on where you obtained the bacpac file from, you might need to update the users or enable the users. Please refer to the How To section and learn how to complete either task.
+In this how to we showed you how you can update a Tier1 environment with a bacpac file, and how to make sure that the database is synchronized with the codebase. Depending on where you obtained the bacpac file from, you might need to [update](How-To-Update-Users-In-Db.md) and/or [enable](How-To-Enable-Users-In-Db.md) the users. Please refer to the How To section and learn how to complete either task.
